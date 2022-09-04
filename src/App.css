@@ -1,0 +1,441 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../public/police/RobotoMono-VariableFont_wght.ttf);
+}
+
+
+body{
+  background-color: #ffededd7;  
+  height: 100vh;
+  background-position: center;
+  font-family: 'Roboto';
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.point{
+  color: #28FFBF;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.contact{
+  border: 1px solid #28FFBF;
+  background-color:   #28FFBF;
+  padding: 10px;
+  border: 2px solid black;
+  color: #11052C;
+  font-weight: 800;
+  box-shadow: 6px 6px 0px 0px rgba(22, 22, 22, 0.89);
+  border-radius: 4px;
+}
+
+.contact:hover{
+  background-color: #FFEDED;
+}
+
+.hover-nav:hover{
+  background-color:   #28FFBF;
+  border: 1.5px solid black;
+  box-shadow: 6px 6px 0px 0px rgba(22, 22, 22, 0.89);
+  font-weight: 800;
+}
+
+.hover-nav{
+  font-size: 17px;
+  text-align: center;
+}
+
+.nav-clara {
+  font-size: 45px;
+}
+
+.play{
+display: flex;
+flex-direction: column;
+}
+
+.play-structure{
+  display: flex;
+  position: relative;
+}
+
+.circle1, .circle2{
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.circle1{
+  left: 22px;
+}
+
+.rectangle1{
+  width: 100%;
+  height: 20px;
+  background-color: #28FFBF;
+  border: 2px solid black;
+}
+
+
+.play-contains{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10px;
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-top: none;
+  width: 100%;
+  height: 100%;
+  box-shadow: 11px 11px 0px 0px rgb(22, 22, 22);
+}
+
+.hello{
+  text-align: left;
+  font-weight: 900;
+  font-size: 200px;
+  color: #28ffbf71;
+}
+
+.h1{
+  color: black;
+  font-weight: 900;
+  font-size: 80px;
+  padding-bottom: 80px;
+}
+
+.point-bis{
+  color: #28FFBF;
+}
+
+.presentation{
+  font-size: 200px;
+}
+
+
+.card{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(300px);
+  background-color:rgba(138, 122, 122, 0.068);
+  border-radius: 10px;
+  padding: 20px;  
+  justify-content: center;
+  text-align: justify;
+}
+
+.card:hover img{
+  filter: brightness(0%) blur(0.5px);
+}
+
+.card:hover h2{
+  color: rgba(255, 255, 255, 0.432);
+  font-size: 15px;
+  padding-top: 90px;
+  font-weight: 800;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.card-bis{
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+
+}
+
+.affiche{
+  width: 230px;
+  border-radius: 10px;    
+}
+
+
+.card:hover button{
+  border: 1px solid #28FFBF;
+  background-color:   #28FFBF;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: 2px solid black;
+  color: #11052C;
+  font-weight: 800;
+  box-shadow: 8px 8px 0px 0px rgba(228, 225, 225, 0.13);
+  border-radius: 4px;
+}
+
+
+.text-popular{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color:rgba(255, 255, 255, 0);
+  text-align: justify;
+}
+
+
+.skills-global{
+  padding: 30px 0px 50px 0px;
+}
+
+.skills-columns{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.skills li{
+  display: flex;
+  justify-content:flex-end;
+  gap: 195px;
+  padding-bottom: 40px;
+}
+
+.skills p{
+  font-size: 25px;
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 900;
+}
+
+.skills progress {
+  background-color: #ffededd7;
+}
+
+.skills progress::-webkit-progress-value {
+  background: #28FFBF;
+  border-radius: 20px;
+}
+
+.skills progress::-webkit-progress-bar {
+  background: #ffededd7;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.048);
+  width: 200px;
+}
+
+.telecharger h3{
+text-align: center;
+padding-bottom: 20px;
+font-size: 17px;
+font-family: "Roboto",Arial, Helvetica, sans-serif;
+color: black;
+font-weight: 900;
+}
+
+.telecharger img{
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 13px 13px 0px 0px rgba(0, 0, 0, 0.048);
+
+}
+
+.telecharger img:hover{
+  border: 2px solid #28FFBF;
+}
+
+.telecharger a{
+  display: flex;
+  justify-content: center;
+}
+
+.telecharger{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+
+.contact-global{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 0px 110px 0px;
+}
+
+.contact-box li p{
+  font-size: 20px;
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.Github p{
+  font-size: 20px;
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: 600;
+  padding: 50px 0px 40px 0px;
+}
+
+.contact-box button, .Github button{
+  border: 3px solid #28FFBF;
+  border-radius: 12px;
+  font-size: 14px;
+  background-color: #28FFBF;
+  padding: 5px 35px ;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 90px;
+}
+
+.contact-box div, .Github div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  font-family: "Roboto",Arial, Helvetica, sans-serif;
+  border: 2px solid #28FFBF;
+  border-radius: 12px;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+.contact-box div:hover{
+  background-color: white;
+  color: #28FFBF;
+  cursor: pointer;
+}
+
+.Github div:hover{
+  background-color: white;
+  color: #28FFBF;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  
+  .play{
+    display: none;
+  }
+
+  .test{
+    display: flex;
+    justify-content: center;
+  }
+
+  .description{
+    text-align: center;
+  }
+
+ 
+}
+
+
+@media (max-width: 768px){
+
+  .hover-nav{
+    font-size: 13px;
+    gap:15px;
+    padding-left: 0%;
+  }
+
+  .nav-clara{
+    padding-left: 50%;
+}
+
+  .header{
+    font-size: 10px;
+    padding-top: 15px;
+    gap: 17px;
+    }
+
+  .hello{
+    font-size: 110px;
+  }
+ 
+  .description{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .h1{
+    font-size: 50px;
+  }
+
+  .skills li{
+    gap: 50px;
+    align-items: center; 
+    padding-left: 30px; 
+
+  }
+
+  .skills{
+    gap: 0px;
+  }
+
+  .skills li p {
+    font-size: 23px;
+  }
+
+  .skills progress::-webkit-progress-bar {
+    width: 100px;
+  }
+  
+  .contact-box button, .Github button{
+    font-size: 8px;
+    margin: 0px;
+  }
+  
+  .contact-box div, .Github div{
+    padding-left: 10px;
+    font-size: 9px;
+  }
+
+  .contact-global{
+    padding:0px 20px 10px;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
