@@ -151,18 +151,24 @@ flex-direction: column;
   align-items: center;
   backdrop-filter: blur(300px);
   background-color:rgba(138, 122, 122, 0.068);
+  width: 350px;
+  height: 350px;
   border-radius: 10px;
   padding: 20px;  
   justify-content: center;
   text-align: justify;
 }
 
+.card img{
+  width: 350px;
+}
+
 .card:hover img{
-  filter: brightness(0%) blur(0.5px);
+  filter: brightness(20%) blur(1px);
 }
 
 .card:hover h2{
-  color: rgba(255, 255, 255, 0.432);
+  color: rgba(255, 255, 255, 0.623);
   font-size: 15px;
   padding-top: 90px;
   font-weight: 800;
