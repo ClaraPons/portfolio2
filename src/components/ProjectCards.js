@@ -1,7 +1,6 @@
 import React from "react";
 import { ExternalLink } from 'react-external-link';
 import '../App.css'
-let Logo = require("./img/photo.jpg")
 
 
 

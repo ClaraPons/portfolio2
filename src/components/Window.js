@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+// eslint-disable-next-line
 let Picture = require("./img/photo3.png")
 
 const Window = () => {
