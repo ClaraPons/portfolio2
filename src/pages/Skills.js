@@ -4,6 +4,7 @@ import '../App.css'
 import H1 from '../components/H1'
 
 let CV = require("../components/img/cv1.png")
+let CVPDF = require("../components/img/PONS_Clara_Dev_Web.pdf")
 
 const Skills = () => {
 
@@ -51,7 +52,7 @@ const Skills = () => {
                     <section class="CV">
                         <article class="telecharger pt-[25px]">
                             <h3>Télécharger mon CV ici<span>&#9660;</span></h3>
-                            <a target="_blank" rel="noreferrer" href={CV}><img alt="cv" src={CV}/></a>
+                            <a target="_blank" rel="noreferrer" href={CVPDF}><img alt="cv" src={CV}/></a>
                         </article>
                     </section>
                 </section>
