@@ -51,7 +51,7 @@ const Skills = () => {
                     <section class="CV">
                         <article class="telecharger pt-[25px]">
                             <h3>Télécharger mon CV ici<span>&#9660;</span></h3>
-                            <a target="_blank" href={CV}><img alt="cv" src={CV}/></a>
+                            <a target="_blank" rel="noreferrer" href={CV}><img alt="cv" src={CV}/></a>
                         </article>
                     </section>
                 </section>

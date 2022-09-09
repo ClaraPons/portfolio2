@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css'
-let Logo = require("./img/photo3.png")
+let Picture = require("./img/photo3.png")
 
 const Window = () => {
   return(
@@ -12,7 +12,7 @@ const Window = () => {
             <div className="circle2"></div>
         </article>
         <article className="play-contains">
-            <img className='w-[380px] rounded' src={Logo}/>
+            <img alt="" className='w-[380px] rounded' src={Picture}/>
         </article>
     </section>
     </>
