@@ -21,7 +21,7 @@ const Project = () => {
                         </li>
                         <li>
                             <p>Linkedin</p>
-                            <div>linkedin.com/in/clara-pons-297bb6b3<a href="linkedin.com/in/clara-pons-297bb6b3"><button type="button">Cliquez-ici</button></a></div>
+                            <div>https://www.linkedin.com/in/clara-pons-297bb6b3/<a href="https://www.linkedin.com/in/clara-pons-297bb6b3/"><button type="button">Cliquez-ici</button></a></div>
                         </li>
                     </ul>
                 </article>
