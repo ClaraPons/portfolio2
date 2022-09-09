@@ -6,7 +6,7 @@
 
 body{
   background-color: #ffededd7;  
-  height: 100vh;
+  
   background-position: center;
   font-family: 'Roboto';
 }
@@ -112,7 +112,6 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 10px;
   align-items: center;
   background-color: white;
   border: 2px solid black;
@@ -369,17 +368,32 @@ font-weight: 900;
  
 }
 
+@media (max-width: 1024px) and (min-width: 768px){
 
-@media (max-width: 768px){
+.hello{
+  text-align: center;
+}
+
+.skills{
+  justify-content: center;
+  gap: 0px;
+  padding-right: 10%;
+}
+
+}
+
+
+
+
+@media (max-width: 767px){
 
   .hover-nav{
     font-size: 13px;
     gap:15px;
-    padding-left: 0%;
   }
 
   .nav-clara{
-    padding-left: 50%;
+    text-align: center;
 }
 
   .header{
@@ -398,9 +412,10 @@ font-weight: 900;
   }
 
   .h1{
-    font-size: 50px;
+    display: none;
   }
 
+ 
   .skills li{
     gap: 50px;
     align-items: center; 
@@ -410,6 +425,7 @@ font-weight: 900;
 
   .skills{
     gap: 0px;
+    justify-content: center;
   }
 
   .skills li p {
@@ -435,7 +451,19 @@ font-weight: 900;
   }
 }
 
+@media (max-width: 720px) and (min-width: 540px){
 
+  .hello{
+    text-align: center;
+  }
+  
+  .skills{
+    justify-content: center;
+    gap: 0px;
+  }
+  
+  }
+  
 
 @keyframes App-logo-spin {
   from {

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './components/Header'
+import Header2 from './components/Header2'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
@@ -12,7 +12,7 @@ import Contact from './pages/Contact'
 const App = () => {
   return(
     <BrowserRouter>
-        <Header />
+        <Header2 />
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/projects" element={<Project/>}/>

@@ -8,8 +8,8 @@ import {Link } from 'react-router-dom'
 const Home = () => {
   return(
     <> 
-    <section className=" test flex gap-[11%] py-5 ">
-      <div className="home flex flex-col w-[780px] pl-[12%] pt-[10px] ">      
+    <section className=" test flex gap-[16%] py-5 ">
+      <div className="home flex flex-col w-[780px] pl-[12%] pt-[15px] ">      
           <MovingComponent
           className="hello"
             type="effect3D"

@@ -40,7 +40,7 @@ const Skills = () => {
                             </li>
                             <li>
                                 <p>SQL</p>
-                                <progress value="40" max="100"></progress>
+                                <progress value="55" max="100"></progress>
                             </li>
                             <li>
                                 <p>Redux JS</p>
